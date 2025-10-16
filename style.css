@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+max-width: 80%;
+margin: auto;
+}
+
+ul{
+    display: flex;
+    gap: 59px;
+}
+
+ul a{
+    font-family: 'Nosifer';
+    color: yellow;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+body{
+    background-image: url(image\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+main button{
+    background:  linear-gradient(90deg, rgba(245, 194, 44, 0.96) 0%, #64AA58 28%, #FAFF00 58.5%, #D92E23 100%);
+    width: 692px;
+    height: 119px;
+    font-family: 'Nosifer';
+    font-size: 48px;
+    border: 11px solid #000;
+}
+
+main h1{
+    font-family: 'Nosifer';
+    font-weight: 800;
+    font-size: 100px;
+    text-align: center;
+    color: yellow;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
